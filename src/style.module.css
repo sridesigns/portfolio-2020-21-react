@@ -1,0 +1,49 @@
+.thqLink {
+  color: #1F2933;
+  text-decoration: none;
+  text-decoration-color: #FADB5F;
+}
+.thqButton {
+  color: #fff;
+  border: unset;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #FADB5F;
+}
+.thqTextInput {
+  border-bottom: 1px solid #FADB5F;
+  background-color: #fff;
+}
+.thqNumberInput {
+  border-bottom: 1px solid #FADB5F;
+  background-color: #fff;
+}
+.thqTextArea {
+  border: 1px solid #1F2933;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.thqImage {
+  border: unset;
+}
+.thqIcon {
+  fill: #1F2933;
+}
+.thqHeading1 {
+  font-weight: 700;
+}
+.thqHeading2 {
+  font-weight: 700;
+}
+.thqHeading3 {
+  font-weight: 700;
+}
+.thqHeading4 {
+  font-weight: 700;
+}
+.thqHeading5 {
+  font-weight: 700;
+}
+.thqHeading6 {
+  font-weight: 700;
+}
