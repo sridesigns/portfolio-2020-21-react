@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom'
 import Helmet from 'react-helmet'
 
 import projectStyles from '../style.module.css'
-import styles from './about-me.module.css'
+import styles from './playground.module.css'
 
-const AboutMe = () => {
+const Playground = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>About Me - Sriram Venugopal</title>
+        <title>Playground - Sriram Venugopal</title>
         <meta
           name="description"
           content="Hi. This is Sriram and you are viewing my portfolio. Feel free to reach out :)"
         />
-        <meta property="og:title" content="About Me - Sriram Venugopal" />
+        <meta property="og:title" content="Playground - Sriram Venugopal" />
         <meta
           property="og:description"
           content="Hi. This is Sriram and you are viewing my portfolio. Feel free to reach out :)"
@@ -23,7 +23,7 @@ const AboutMe = () => {
       </Helmet>
       <div className={styles.navbar}>
         <div className={styles.div}>
-          <div className={styles.container1}>
+          <div className={styles.container01}>
             <Link to="/" className={styles.navlink}>
               <img
                 src="/playground_assets/logo.svg"
@@ -35,57 +35,110 @@ const AboutMe = () => {
             <Link to="/" className={` ${projectStyles.thqLink} ${styles.text} `}>
               <span className={styles.text01}>Work</span>
             </Link>
-            <Link to="/playground" className={` ${projectStyles.thqLink} ${styles.span} `}>
-              <span className={styles.text02}>Play</span>
+            <span className={styles.span}>
+              <span data-type="span" className={styles.text02}>
+                <span className={styles.text03}>Play</span>
+              </span>
+            </span>
+            <Link to="/about-me" className={` ${projectStyles.thqLink} ${styles.text04} `}>
+              About
             </Link>
-            <span className={styles.text03}>
-              <span className={styles.text04}>About</span>
-            </span>
           </div>
         </div>
       </div>
-      <div id="about-intro" className={styles.container2}>
+      <div id="playground-intro" className={styles.div2}>
         <h1 className={` ${projectStyles.thqHeading1} ${styles.text05} `}>
-          <span data-type="span" className={styles.text06}>
-            Hello There,Â 
-            <br />
-            Hope you are having aÂ greatÂ day!
-          </span>
+          <span className={styles.text06}>Playground</span>
         </h1>
-        <div className={styles.container3}>
-          <img
-            src="/playground_assets/FullSizeRender-1200h.jpg"
-            className={` ${projectStyles.thqImage} ${styles.image1} `}
-          />
-          <div className={styles.container4}>
-            <span className={styles.text07}>Iâm a UX Designer based out of Chennai, India.</span>
-            <span className={styles.text08}>
-              I currently work at
-              <span className={styles.text09}>Tata Consultancy Services (TCS)</span>
-              for the past
-              <span className={styles.text10}>9+years</span>
-              .
-              <br />
-            </span>
-            <span className={styles.text11}>
-              I completed my Electronics and Instrumentation Engineering from RMK Engineering
-              College in 2011 and joined TCS the same year.
-              <br data-type="br" />
-            </span>
+        <span className={styles.text07}>
+          The artefacts listed here are collection of my hobbies, experiments, snippets from
+          personal projects or simply just practise materials.
+        </span>
+        <div className={styles.container02}>
+          <div className={styles.container03}>
+            <a
+              href="https://www.instagram.com/sriram015/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className={styles.link}
+            >
+              <div
+                id="btn-instagram"
+                className={` ${projectStyles.thqLink} ${styles.container04} `}
+              >
+                <span className={styles.text08}>
+                  <span className={styles.text09}>View my Instagram</span>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div className={styles.container05}>
+            <a
+              href="https://dribbble.com/SriramVenugopal"
+              target="_blank"
+              rel="noreferrer noopener"
+              className={styles.link1}
+            >
+              <div
+                id="btn-instagram"
+                className={` ${projectStyles.thqLink} ${styles.container06} `}
+              >
+                <span className={styles.text10}>
+                  <span data-type="span" className={styles.text11}>
+                    View my Dribbble
+                  </span>
+                </span>
+              </div>
+            </a>
           </div>
         </div>
+        <div className={styles.container07}></div>
       </div>
-      <div id="footer" className={styles.container5}>
-        <div className={styles.container6}>
-          <div className={styles.container7}>
+      <div className={styles.container08}>
+        <img
+          src="/playground_assets/madras-central-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image1} `}
+        />
+        <img
+          src="/playground_assets/Gwen_Spiderverse-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image2} `}
+        />
+        <img
+          src="/playground_assets/Swat-Kats-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image3} `}
+        />
+        <img
+          src="/playground_assets/Kalam_Memorial-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image4} `}
+        />
+        <img
+          src="/playground_assets/iPod%20-%20Social%20Media-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image5} `}
+        />
+        <img
+          src="/playground_assets/Wine%20-%20Social%20Media-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image6} `}
+        />
+        <img
+          src="/playground_assets/Ps5%20-%20Social%20Media-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image7} `}
+        />
+        <img
+          src="/playground_assets/3%20Robots_LDR-1200h.png"
+          className={` ${projectStyles.thqImage} ${styles.image8} `}
+        />
+      </div>
+      <div id="footer" className={styles.container09}>
+        <div className={styles.container10}>
+          <div className={styles.container11}>
             <span className={styles.text12}>
               Let&apos;s connect. Feel free to drop a
               <span className={styles.text13}>&quot;hello&quot;</span>
               anytime
             </span>
           </div>
-          <div className={styles.container8}>
-            <a href="mailto:msgsrive@gmail.com?subject=Hello :)" className={styles.link}>
+          <div className={styles.container12}>
+            <a href="mailto:msgsrive@gmail.com?subject=Hello :)" className={styles.link2}>
               <svg
                 viewBox="0 0 1024 1024"
                 className={` ${projectStyles.thqIcon} ${projectStyles.thqLink} ${styles.icon} `}
@@ -98,7 +151,7 @@ const AboutMe = () => {
               href="https://twitter.com/designersriram"
               target="_blank"
               rel="noreferrer noopener"
-              className={styles.link1}
+              className={styles.link3}
             >
               <svg
                 viewBox="0 0 950.8571428571428 1024"
@@ -112,7 +165,7 @@ const AboutMe = () => {
               href="https://www.instagram.com/sriram015/"
               target="_blank"
               rel="noreferrer noopener"
-              className={styles.link2}
+              className={styles.link4}
             >
               <svg
                 viewBox="0 0 877.7142857142857 1024"
@@ -126,7 +179,7 @@ const AboutMe = () => {
               href="https://www.linkedin.com/in/sriramvenugopal/"
               target="_blank"
               rel="noreferrer noopener"
-              className={styles.link3}
+              className={styles.link5}
             >
               <svg
                 viewBox="0 0 877.7142857142857 1024"
@@ -140,7 +193,7 @@ const AboutMe = () => {
               href="https://dribbble.com/SriramVenugopal"
               target="_blank"
               rel="noreferrer noopener"
-              className={styles.link4}
+              className={styles.link6}
             >
               <svg
                 viewBox="0 0 877.7142857142857 1024"
@@ -157,4 +210,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe
+export default Playground

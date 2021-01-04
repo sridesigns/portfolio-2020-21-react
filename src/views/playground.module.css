@@ -27,7 +27,7 @@
   justify-items: center;
   grid-template-columns: 1fr 1fr;
 }
-.container1 {
+.container01 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -81,6 +81,10 @@
   font-weight: 700;
 }
 .text03 {
+  color: rgb(9, 103, 210);
+  font-weight: 800;
+}
+.text04 {
   color: #1f2933;
   padding: 10px;
   font-size: 16px;
@@ -89,69 +93,168 @@
   margin-right: 16px;
   text-decoration: none;
 }
-.text04 {
-  color: rgb(9, 103, 210);
-  font-weight: 800;
-}
-.container2 {
+.div2 {
   width: 720px;
   display: flex;
   margin-top: 48px;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 .text05 {
-  width: 100%;
   font-size: 40px;
-  align-self: center;
-  text-align: center;
   line-height: 1.4;
 }
 .text06 {
   font-weight: 900;
 }
-.container3 {
+.text07 {
+  margin-top: 8px;
+  text-align: center;
+}
+.container02 {
   width: 100%;
   display: grid;
   grid-gap: 24px;
-  margin-top: 40px;
+  margin-top: 32px;
+  align-items: center;
+  align-content: space-around;
+  justify-items: center;
+  justify-content: space-evenly;
   grid-template-columns: 1fr 1fr;
 }
-.image1 {
-  width: 100%;
-  object-fit: contain;
-  border-radius: 16px;
-}
-.container4 {
+.container03 {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-.text07 {
-  width: 100%;
-  display: inline-block;
-  align-self: center;
+.link {
+  display: contents;
+}
+.container04 {
+  width: 220px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-color: #CBD2D9;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FFF;
 }
 .text08 {
-  width: 100%;
-  display: inline-block;
+  color: #0967d2;
+  font-size: 14px;
   align-self: center;
-  margin-top: 16px;
+  margin-top: 8px;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 .text09 {
   font-weight: 700;
 }
+.container05 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.link1 {
+  display: contents;
+}
+.container06 {
+  width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-color: #CBD2D9;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FFF;
+}
 .text10 {
-  font-weight: 700;
+  color: #0967d2;
+  font-size: 14px;
+  align-self: center;
+  margin-top: 8px;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 .text11 {
-  width: 100%;
-  display: inline-block;
-  align-self: center;
-  margin-top: 16px;
+  font-weight: 700;
 }
-.container5 {
+.container07 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #CBD2D9;
+}
+.container08 {
+  width: 800px;
+  display: grid;
+  grid-gap: 24px;
+  margin-top: 40px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.image1 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image2 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image3 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image4 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image5 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image6 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image7 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image8 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.container09 {
   width: 100%;
   height: 60px;
   display: flex;
@@ -163,7 +266,7 @@
   justify-content: center;
   border-top-width: 1px;
 }
-.container6 {
+.container10 {
   width: 1000px;
   display: grid;
   grid-gap: px;
@@ -173,7 +276,7 @@
   justify-content: space-around;
   grid-template-columns: 1fr 1fr;
 }
-.container7 {
+.container11 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -190,7 +293,7 @@
   color: rgb(9, 103, 210);
   font-weight: 600;
 }
-.container8 {
+.container12 {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -200,7 +303,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.link {
+.link2 {
   display: contents;
 }
 .icon {
@@ -209,7 +312,7 @@
   height: 20px;
   margin: 16px;
 }
-.link1 {
+.link3 {
   display: contents;
 }
 .icon1 {
@@ -218,7 +321,7 @@
   height: 20px;
   margin: 16px;
 }
-.link2 {
+.link4 {
   display: contents;
 }
 .icon2 {
@@ -227,7 +330,7 @@
   height: 20px;
   margin: 16px;
 }
-.link3 {
+.link5 {
   display: contents;
 }
 .icon3 {
@@ -236,7 +339,7 @@
   height: 20px;
   margin: 16px;
 }
-.link4 {
+.link6 {
   display: contents;
 }
 .icon4 {
@@ -249,13 +352,16 @@
   .div {
     width: 80%;
   }
-  .container2 {
+  .div2 {
     width: 70%;
   }
-  .container5 {
+  .container08 {
+    width: 80%;
+  }
+  .container09 {
     height: 80px;
   }
-  .container6 {
+  .container10 {
     width: 80%;
   }
 }
@@ -272,31 +378,47 @@
     justify-content: center;
     grid-template-columns: 1fr;
   }
-  .container1 {
+  .container01 {
     justify-content: center;
   }
   .div1 {
     justify-content: space-between;
   }
-  .container2 {
+  .div2 {
     width: 80%;
   }
   .text05 {
-    text-align: left;
+    width: 100%;
   }
   .text07 {
     text-align: left;
   }
-  .text08 {
-    text-align: left;
+  .container02 {
+    grid-template-columns: 1fr;
   }
-  .text11 {
-    text-align: left;
+  .container04 {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
-  .container5 {
+  .container06 {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container08 {
+    width: 90%;
+  }
+  .container09 {
     height: 120px;
   }
-  .container6 {
+  .container10 {
     width: 80%;
     grid-template-columns: 1fr;
   }
