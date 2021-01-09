@@ -125,16 +125,18 @@ const Appraise = () => {
       <div id="cs2-problem" className={styles.div02}>
         <h1 className={` ${projectStyles.thqHeading1} ${styles.h1} `}>Why Redesign?</h1>
         <span className={styles.text015}>
-          We were using the evaluation application for the
-          <span className={styles.text016}>past 7+ years</span>. Although the application had
-          it&apos;s issues, it was functional and it got the job done.
-          <span className={styles.text017}>
-            <br />
+          We were using the evaluation application for theÂ 
+          <span data-type="span" className={styles.text016}>
+            past 7+ years
+          </span>
+          .Â  Although the application had its issues, it was functional and it got the job done.
+          <span data-type="span" className={styles.text017}>
+            <br data-type="br" />
             60-70%
           </span>
           of users used the application once a year, and the rest of the users use it anywhere from
           2-4 times a year depending on their project works.
-          <br />
+          <br data-type="br" />
           So why redesign?
         </span>
         <span className={styles.text018}>
@@ -268,12 +270,18 @@ const Appraise = () => {
           <br />- 3 Product Managers
         </span>
         <span className={styles.text041}>
-          The application was built using
-          <span className={styles.text042}>ReactJS</span>
-          and
-          <span className={styles.text043}>Java</span>. I started working on the designs in Sketch
-          but we migrated to
-          <span className={styles.text044}>Figma</span>
+          The application was built usingÂ 
+          <span data-type="span" className={styles.text042}>
+            ReactJS
+          </span>
+          Â andÂ 
+          <span data-type="span" className={styles.text043}>
+            JavaÂ 
+          </span>
+          . I started working on the designs in Sketch but we migrated toÂ 
+          <span data-type="span" className={styles.text044}>
+            FigmaÂ 
+          </span>
           which made collaboration, reviews much quicker and easier.
         </span>
       </div>
@@ -288,10 +296,14 @@ const Appraise = () => {
           prepared a set of questionnaire to validate with different user groups
         </span>
         <span className={styles.text048}>
-          I interviewed
-          <span className={styles.text049}>12 users</span>
-          and conducted
-          <span className={styles.text050}>3 focus group sessions</span>
+          I interviewedÂ 
+          <span data-type="span" className={styles.text049}>
+            12 usersÂ 
+          </span>
+          and conductedÂ 
+          <span data-type="span" className={styles.text050}>
+            3 focus group sessionsÂ 
+          </span>
           to validate my questionnaire and the findings of the teamÂ 
           <br data-type="br" />
         </span>
@@ -311,8 +323,10 @@ const Appraise = () => {
         </h1>
         <span className={styles.text054}>
           The personas that were created already were pretty solid and based on my user research I
-          made some minor tweaks. We identified
-          <span className={styles.text055}>8 personas</span>
+          made some minor tweaks. We identifiedÂ 
+          <span data-type="span" className={styles.text055}>
+            8 personasÂ 
+          </span>
           that covered majority of the user groups in the organisation.
         </span>
         <span className={styles.text056}>
@@ -321,14 +335,16 @@ const Appraise = () => {
           plotted a journey for all the defined personas.
         </span>
         <span className={styles.text057}>
-          The below
-          <span className={styles.text058}>3 critical user journeys</span>
+          The belowÂ 
+          <span data-type="span" className={styles.text058}>
+            3 critical user journeysÂ 
+          </span>
           covered almost 80% of our application needs:Â 
-          <br />
+          <br data-type="br" />
           - Appraisee Journey
-          <br />
+          <br data-type="br" />
           - Evaluator Journey
-          <br />- Reviewer Journey
+          <br data-type="br" />- Reviewer Journey
         </span>
       </div>
       <div id="cs2-userflow-pic" className={styles.container19}>
