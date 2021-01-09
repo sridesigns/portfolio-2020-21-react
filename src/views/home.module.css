@@ -356,9 +356,6 @@
 .text18 {
   font-size: 24px;
 }
-.text19 {
-  font-weight: 800;
-}
 .text20 {
   color: #52606D;
   width: 100%;
@@ -386,6 +383,7 @@
   font-size: 14px;
   align-self: center;
   margin-top: 8px;
+  text-align: center;
   margin-left: 24px;
   margin-right: 8px;
   margin-bottom: 8px;
@@ -400,6 +398,86 @@
   align-self: center;
 }
 .container16 {
+  width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container17 {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.navlink4 {
+  display: contents;
+}
+.image3 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.container18 {
+  width: 60%;
+  display: flex;
+  align-self: center;
+  margin-top: 2px;
+  align-items: flex-start;
+  margin-left: 24px;
+  flex-direction: column;
+}
+.text23 {
+  font-size: 24px;
+}
+.text24 {
+  font-weight: 800;
+}
+.text25 {
+  color: #52606D;
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.navlink5 {
+  display: contents;
+}
+.container19 {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  align-items: center;
+  border-color: #CBD2D9;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.text26 {
+  font-size: 14px;
+  align-self: center;
+  margin-top: 8px;
+  margin-left: 24px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.text27 {
+  font-weight: 700;
+}
+.icon06 {
+  width: 20px;
+  height: 20px;
+  display: inline;
+  align-self: center;
+}
+.container20 {
   width: 100%;
   height: 60px;
   display: flex;
@@ -421,7 +499,7 @@
   justify-content: space-around;
   grid-template-columns: 1fr 1fr;
 }
-.container17 {
+.container21 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -429,16 +507,16 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.text23 {
+.text28 {
   color: #3E4C59;
   font-size: 14px;
   font-weight: 400;
 }
-.text24 {
+.text29 {
   color: rgb(9, 103, 210);
   font-weight: 600;
 }
-.container18 {
+.container22 {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -451,7 +529,7 @@
 .link4 {
   display: contents;
 }
-.icon06 {
+.icon07 {
   fill: #3E4C59;
   width: 20px;
   height: 20px;
@@ -460,7 +538,7 @@
 .link5 {
   display: contents;
 }
-.icon07 {
+.icon08 {
   fill: #3E4C59;
   width: 20px;
   height: 20px;
@@ -469,7 +547,7 @@
 .link6 {
   display: contents;
 }
-.icon08 {
+.icon09 {
   fill: #3E4C59;
   width: 20px;
   height: 20px;
@@ -478,7 +556,7 @@
 .link7 {
   display: contents;
 }
-.icon09 {
+.icon10 {
   fill: #3E4C59;
   width: 20px;
   height: 20px;
@@ -487,7 +565,7 @@
 .link8 {
   display: contents;
 }
-.icon10 {
+.icon11 {
   fill: #3E4C59;
   width: 20px;
   height: 20px;
@@ -527,6 +605,9 @@
     width: 70%;
   }
   .container16 {
+    width: 70%;
+  }
+  .container20 {
     height: 80px;
   }
   .div2 {
@@ -638,10 +719,15 @@
   }
   .container12 {
     width: 80%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
   }
   .container13 {
+    width: 100%;
+  }
+  .image2 {
     width: 100%;
   }
   .container14 {
@@ -649,11 +735,34 @@
     margin-top: 16px;
     margin-left: 0;
   }
+  .text18 {
+    width: 100%;
+  }
+  .text20 {
+    align-self: flex-start;
+  }
   .container15 {
     width: 100%;
     justify-content: center;
   }
   .container16 {
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container17 {
+    width: 100%;
+  }
+  .container18 {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+  .container19 {
+    width: 100%;
+    justify-content: center;
+  }
+  .container20 {
     height: 120px;
     flex-direction: column;
     justify-content: flex-start;
@@ -663,16 +772,16 @@
     align-content: start;
     grid-template-columns: 1fr;
   }
-  .container17 {
+  .container21 {
     margin-top: 16px;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
   }
-  .text23 {
+  .text28 {
     text-align: center;
   }
-  .container18 {
+  .container22 {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
