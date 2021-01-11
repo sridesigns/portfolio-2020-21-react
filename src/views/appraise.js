@@ -116,9 +116,9 @@ const Appraise = () => {
         <div className={styles.container09}>
           <h1 className={` ${projectStyles.thqHeading1} ${styles.text013} `}>ðï¸Â  Please Note</h1>
           <span className={styles.text014}>
-            Due to NDA Obligations, I&apos;m unable to share actual data, content and the mockups.
-            I&apos;ve recreated mockups without any branding. All data and content displayed as part
-            of mockups are alternate versions
+            Due to NDA obligations, I&apos;m unable to share actual product mockups, research data
+            and usability testing insights. I have captured all the process we did in this project
+            but I have recreated alternate mockups for the purpose of this case study.
           </span>
         </div>
       </div>
@@ -212,10 +212,17 @@ const Appraise = () => {
         <div className={styles.container17}>
           <span className={styles.text027}>
             We have 2 types of evaluations.
-            <br />-<span className={styles.text028}> Annual evaluation</span>
+            <br data-type="br" />-
+            <span data-type="span" className={styles.text028}>
+              {' '}
+              Annual evaluationÂ 
+            </span>
             (Conducted at the end of each year)
-            <br />-<span className={styles.text029}>Project Closure</span>( Conducted if a employee
-            leaves/completes a project)
+            <br data-type="br" />-
+            <span data-type="span" className={styles.text029}>
+              Project ClosureÂ 
+            </span>
+            ( Conducted if a employee leaves/completes a project)
           </span>
           <span className={styles.text030}>
             The Evaluator sets objectives for the Appraisee. Before the evaluation deadline, the

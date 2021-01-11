@@ -184,6 +184,7 @@
   flex-wrap: nowrap;
   margin-top: 32px;
   align-items: center;
+  border-radius: 8px;
   flex-direction: row;
   justify-content: center;
   background-color: #F5F7FA;
@@ -194,6 +195,7 @@
   flex-wrap: nowrap;
   margin-top: 24px;
   align-items: flex-start;
+  margin-bottom: 24px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -969,7 +971,7 @@
     width: 90%;
   }
   .container05 {
-    height: 280px;
+    height: 340px;
   }
   .div03 {
     grid-template-columns: 1fr;
@@ -1087,7 +1089,7 @@
   }
   .container05 {
     width: 80%;
-    height: 560px;
+    height: 420px;
     align-items: start;
     justify-items: stretch;
     justify-content: space-between;
@@ -1098,6 +1100,7 @@
   }
   .container08 {
     width: 90%;
+    margin-top: 24px;
   }
   .container09 {
     width: 90%;

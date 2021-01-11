@@ -27,7 +27,7 @@
   justify-items: center;
   grid-template-columns: 1fr 1fr;
 }
-.container1 {
+.container01 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -93,7 +93,7 @@
   color: rgb(9, 103, 210);
   font-weight: 800;
 }
-.container2 {
+.container02 {
   width: 720px;
   display: flex;
   margin-top: 48px;
@@ -110,28 +110,17 @@
 .text06 {
   font-weight: 900;
 }
-.container3 {
-  width: 100%;
-  display: grid;
-  grid-gap: 24px;
-  margin-top: 40px;
-  grid-template-columns: 1fr 1fr;
-}
 .image1 {
   width: 100%;
+  margin-top: 24px;
   object-fit: contain;
   border-radius: 16px;
-}
-.container4 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .text07 {
   width: 100%;
   display: inline-block;
   align-self: center;
+  margin-top: 24px;
 }
 .text08 {
   width: 100%;
@@ -151,112 +140,249 @@
   align-self: center;
   margin-top: 16px;
 }
-.container5 {
+.text12 {
   width: 100%;
-  height: 60px;
-  display: flex;
-  overflow: auto;
-  margin-top: 100px;
-  align-items: center;
-  border-color: #E4E7EB;
-  flex-direction: column;
-  justify-content: center;
-  border-top-width: 1px;
+  display: inline-block;
+  align-self: center;
+  margin-top: 16px;
 }
-.container6 {
-  width: 1000px;
-  display: grid;
-  grid-gap: px;
-  align-items: stretch;
-  align-content: start;
-  justify-items: center;
-  justify-content: space-around;
-  grid-template-columns: 1fr 1fr;
+.text13 {
+  margin-top: 16px;
 }
-.container7 {
-  width: 100%;
+.container03 {
+  width: 720px;
+  height: 1px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
+  background-color: #E4E7EB;
 }
-.text12 {
-  color: #3E4C59;
-  font-size: 14px;
-  font-weight: 400;
+.container04 {
+  width: 720px;
+  display: flex;
+  margin-top: 40px;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.text13 {
-  color: rgb(9, 103, 210);
+.h1 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.text15 {
+  color: #52606D;
+  font-size: 16px;
+  margin-top: 24px;
   font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
-.container8 {
+.text16 {
+  margin-top: 16px;
+}
+.text17 {
+  margin-top: 12px;
+}
+.text18 {
+  color: #52606D;
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text19 {
+  margin-top: 16px;
+}
+.text20 {
+  margin-top: 12px;
+}
+.text21 {
+  color: #52606D;
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text22 {
+  margin-top: 16px;
+}
+.text23 {
+  margin-top: 12px;
+}
+.container05 {
+  width: 720px;
+  height: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #E4E7EB;
+}
+.container06 {
+  width: 720px;
+  display: flex;
+  margin-top: 40px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.text24 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.text25 {
+  font-weight: 800;
+}
+.text26 {
+  margin-top: 16px;
+}
+.text27 {
+  font-weight: bold;
+}
+.text28 {
+  font-weight: bold;
+}
+.text29 {
+  margin-top: 12px;
+}
+.text30 {
+  margin-top: 12px;
+}
+.text31 {
+  margin-top: 12px;
+}
+.text32 {
+  color: #52606D;
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text33 {
+  margin-top: 12px;
+}
+.text34 {
+  font-weight: bold;
+}
+.text35 {
+  margin-top: 12px;
+}
+.text36 {
+  margin-top: 12px;
+}
+.text37 {
+  font-weight: bold;
+}
+.container07 {
+  width: 720px;
+  height: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #E4E7EB;
+}
+.container08 {
+  width: 720px;
+  display: flex;
+  overflow: auto;
+  margin-top: 40px;
+  align-items: center;
+  border-color: #E4E7EB;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.container09 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text38 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.text39 {
+  font-weight: 800;
+}
+.container10 {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
   align-self: stretch;
+  margin-top: 8px;
   align-items: stretch;
   justify-self: stretch;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .link {
   display: contents;
 }
 .icon {
-  fill: #3E4C59;
-  width: 20px;
-  height: 20px;
-  margin: 16px;
+  fill: #1F2933;
+  width: 32px;
+  height: 32px;
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
 }
 .link1 {
   display: contents;
 }
 .icon1 {
-  fill: #3E4C59;
-  width: 20px;
-  height: 20px;
+  fill: #1F2933;
+  width: 32px;
+  height: 32px;
   margin: 16px;
 }
 .link2 {
   display: contents;
 }
 .icon2 {
-  fill: #3E4C59;
-  width: 20px;
-  height: 20px;
+  fill: #1F2933;
+  width: 32px;
+  height: 32px;
   margin: 16px;
 }
 .link3 {
   display: contents;
 }
 .icon3 {
-  fill: #3E4C59;
-  width: 20px;
-  height: 20px;
+  fill: #1F2933;
+  width: 32px;
+  height: 32px;
   margin: 16px;
 }
 .link4 {
   display: contents;
 }
 .icon4 {
-  fill: #3E4C59;
-  width: 20px;
-  height: 20px;
+  fill: #1F2933;
+  width: 32px;
+  height: 32px;
   margin: 16px;
 }
 @media(max-width: 767px) {
   .div {
     width: 80%;
   }
-  .container2 {
+  .container02 {
     width: 70%;
   }
-  .container5 {
+  .container08 {
     height: 80px;
-  }
-  .container6 {
-    width: 80%;
   }
 }
 @media(max-width: 479px) {
@@ -272,13 +398,13 @@
     justify-content: center;
     grid-template-columns: 1fr;
   }
-  .container1 {
+  .container01 {
     justify-content: center;
   }
   .div1 {
     justify-content: space-between;
   }
-  .container2 {
+  .container02 {
     width: 80%;
   }
   .text05 {
@@ -293,14 +419,10 @@
   .text11 {
     text-align: left;
   }
-  .container5 {
-    height: 120px;
-  }
-  .container6 {
-    width: 80%;
-    grid-template-columns: 1fr;
-  }
   .text12 {
-    text-align: center;
+    text-align: left;
+  }
+  .container08 {
+    height: 120px;
   }
 }
