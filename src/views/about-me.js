@@ -159,8 +159,10 @@ const AboutMe = () => {
         <span className={styles.text36}>
           â¢ I collaborated with a cross-functional team in designing andÂ  developing a user centered
           MVP. Adoption of the platform improved byÂ 
-          <span className={styles.text37}>200%</span>
-          and lot of ideas ended up as cost-saving initiatives for the company.
+          <span data-type="span" className={styles.text37}>
+            200%
+          </span>
+          Â and lot of ideas ended up as cost-saving initiatives for the company.
         </span>
       </div>
       <div className={styles.container07}></div>
