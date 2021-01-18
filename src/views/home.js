@@ -144,14 +144,18 @@ const Home = () => {
           </Link>
         </div>
         <div className={styles.container10}>
-          <h1 className={` ${projectStyles.thqHeading1} ${styles.text13} `}>
-            <span className={styles.text14}>The Learning Hub</span>
-          </h1>
+          <Link to="/learning-hub" className={styles.navlink1}>
+            <h1
+              className={` ${projectStyles.thqHeading1} ${projectStyles.thqLink} ${styles.text13} `}
+            >
+              <span className={styles.text14}>The Learning Hub</span>
+            </h1>
+          </Link>
           <span className={styles.text15}>
             Design overhaul of a legacy website into a hybrid mobile app that provides a platform
             for students to collaborate, learn and manage all college-related activities.
           </span>
-          <Link to="/learning-hub" className={styles.navlink1}>
+          <Link to="/learning-hub" className={styles.navlink2}>
             <div className={` ${projectStyles.thqLink} ${styles.container11} `}>
               <span className={styles.text16}>
                 <span className={styles.text17}>Read Case Study</span>
@@ -169,7 +173,7 @@ const Home = () => {
       </div>
       <div id="casestudy-2" className={styles.container12}>
         <div className={styles.container13}>
-          <Link to="/learning-hub" className={styles.navlink2}>
+          <Link to="/appraise" className={styles.navlink3}>
             <img
               src="/playground_assets/cs3_display-pic-ie47-1200h.png"
               className={` ${projectStyles.thqImage} ${projectStyles.thqLink} ${styles.image2} `}
@@ -177,14 +181,18 @@ const Home = () => {
           </Link>
         </div>
         <div className={styles.container14}>
-          <h1 className={` ${projectStyles.thqHeading1} ${styles.text18} `}>
-            <span data-type="span">Appraise - The Performance Management App</span>
-          </h1>
+          <Link to="/appraise" className={styles.navlink4}>
+            <h1
+              className={` ${projectStyles.thqHeading1} ${projectStyles.thqLink} ${styles.text18} `}
+            >
+              <span data-type="span">Appraise - The Performance Management App</span>
+            </h1>
+          </Link>
           <span className={styles.text20}>
             Led Design and Research for my organisation of 300k+ users to overhaul the existing
             appraisal process and application.
           </span>
-          <Link to="/appraise" className={styles.navlink3}>
+          <Link to="/appraise" className={styles.navlink5}>
             <div className={` ${projectStyles.thqLink} ${styles.container15} `}>
               <span className={styles.text21}>
                 <span className={styles.text22}>Read Case Study</span>
@@ -202,7 +210,7 @@ const Home = () => {
       </div>
       <div id="casestudy-3" className={styles.container16}>
         <div className={styles.container17}>
-          <Link to="/service-desk-management" className={styles.navlink4}>
+          <Link to="/service-desk-management" className={styles.navlink6}>
             <img
               src="/playground_assets/cs2_display-pic-1200h.png"
               className={` ${projectStyles.thqImage} ${projectStyles.thqLink} ${styles.image3} `}
@@ -210,16 +218,20 @@ const Home = () => {
           </Link>
         </div>
         <div className={styles.container18}>
-          <h1 className={` ${projectStyles.thqHeading1} ${styles.text23} `}>
-            <span data-type="span" className={styles.text24}>
-              IT Service Desk Management
-            </span>
-          </h1>
+          <Link to="/service-desk-management" className={styles.navlink7}>
+            <h1
+              className={` ${projectStyles.thqHeading1} ${projectStyles.thqLink} ${styles.text23} `}
+            >
+              <span data-type="span" className={styles.text24}>
+                IT Service Desk Management
+              </span>
+            </h1>
+          </Link>
           <span className={styles.text25}>
             Collaborated with a startup to designÂ a web application that helps toÂ manage the service
             desk needs for small and medium enterprises.
           </span>
-          <Link to="/service-desk-management" className={styles.navlink5}>
+          <Link to="/service-desk-management" className={styles.navlink8}>
             <div className={` ${projectStyles.thqLink} ${styles.container19} `}>
               <span className={styles.text26}>
                 <span className={styles.text27}>Read Case Study</span>
