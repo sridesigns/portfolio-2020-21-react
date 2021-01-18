@@ -241,7 +241,7 @@ const Home = () => {
             <span className={styles.text28}>
               Let&apos;s connect. Feel free to drop aÂ 
               <span data-type="span" className={styles.text29}>
-                &quot;hello&quot;
+                &quot;hello&quot;Â 
               </span>
               anytime
             </span>

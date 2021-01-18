@@ -134,7 +134,7 @@ const Playground = () => {
             <span className={styles.text12}>
               Let&apos;s connect. Feel free to drop aÂ 
               <span data-type="span" className={styles.text13}>
-                &quot;hello&quot;
+                &quot;hello&quot;Â  Â 
               </span>
               anytime
             </span>
