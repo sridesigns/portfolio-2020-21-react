@@ -134,7 +134,7 @@ const Appraise = () => {
             <br data-type="br" />
             60-70%
           </span>
-          of users used the application once a year, and the rest of the users use it anywhere from
+          Â of users used the application once a year, and the rest of the users use it anywhere from
           2-4 times a year depending on their project works.
           <br data-type="br" />
           So why redesign?
@@ -155,7 +155,7 @@ const Appraise = () => {
       </div>
       <div id="cs2-deadline" className={styles.container10}>
         <div className={styles.container11}>
-          <h1 className={` ${projectStyles.thqHeading1} ${styles.text021} `}>âÂ  Timeline:</h1>
+          <h1 className={` ${projectStyles.thqHeading1} ${styles.text021} `}>âÂ  Â Timeline:</h1>
           <span className={styles.text022}>~ 12 months</span>
         </div>
       </div>
@@ -222,7 +222,7 @@ const Appraise = () => {
             <span data-type="span" className={styles.text029}>
               Project ClosureÂ 
             </span>
-            ( Conducted if a employee leaves/completes a project)
+            (Conducted if a employee leaves/completes a project)
           </span>
           <span className={styles.text030}>
             The Evaluator sets objectives for the Appraisee. Before the evaluation deadline, the
@@ -292,68 +292,6 @@ const Appraise = () => {
           which made collaboration, reviews much quicker and easier.
         </span>
       </div>
-      <div id="cs2-understand-users" className={styles.div04}>
-        <h1 className={` ${projectStyles.thqHeading1} ${styles.text045} `}>
-          <span data-type="span" className={styles.text046}>
-            Understanding the User
-          </span>
-        </h1>
-        <span className={styles.text047}>
-          I synthesized all the documentations and reports created by the previous design team and
-          prepared a set of questionnaire to validate with different user groups
-        </span>
-        <span className={styles.text048}>
-          I interviewedÂ 
-          <span data-type="span" className={styles.text049}>
-            12 usersÂ 
-          </span>
-          and conductedÂ 
-          <span data-type="span" className={styles.text050}>
-            3 focus group sessionsÂ 
-          </span>
-          to validate my questionnaire and the findings of the teamÂ 
-          <br data-type="br" />
-        </span>
-        <span className={styles.text051}>
-          I found most of their findings to be accurate and only minor changes were required to be
-          altered. I ran a playback session for the stakeholders and the entire project team wherein
-          I walked them through the user research findings. We mapped out the MVP features, created
-          sprint plans and decided to release the app in phases.
-          <br data-type="br" />
-        </span>
-      </div>
-      <div id="cs2-user-journeys" className={styles.div05}>
-        <h1 className={` ${projectStyles.thqHeading1} ${styles.text052} `}>
-          <span data-type="span" className={styles.text053}>
-            User Journeys
-          </span>
-        </h1>
-        <span className={styles.text054}>
-          The personas that were created already were pretty solid and based on my user research I
-          made some minor tweaks. We identifiedÂ 
-          <span data-type="span" className={styles.text055}>
-            8 personasÂ 
-          </span>
-          that covered majority of the user groups in the organisation.
-        </span>
-        <span className={styles.text056}>
-          I collaborated with the Business analysts to construct the user journeys. We dissected the
-          features and functionalities, collated key requirement ask against the features and
-          plotted a journey for all the defined personas.
-        </span>
-        <span className={styles.text057}>
-          The belowÂ 
-          <span data-type="span" className={styles.text058}>
-            3 critical user journeysÂ 
-          </span>
-          covered almost 80% of our application needs:Â 
-          <br data-type="br" />
-          - Appraisee Journey
-          <br data-type="br" />
-          - Evaluator Journey
-          <br data-type="br" />- Reviewer Journey
-        </span>
-      </div>
       <div id="cs2-userflow-pic" className={styles.container19}>
         <img
           src="/playground_assets/userjourney-1-1200h.png"
@@ -363,7 +301,69 @@ const Appraise = () => {
           src="/playground_assets/userjourney-2-1200h.png"
           className={` ${projectStyles.thqImage} ${styles.image03} `}
         />
-        <span className={styles.text059}>Snippet of the App&apos;s User journeys</span>
+        <span className={styles.text045}>Snippet of the App&apos;s User journeys</span>
+      </div>
+      <div id="cs2-understand-users" className={styles.div04}>
+        <h1 className={` ${projectStyles.thqHeading1} ${styles.text046} `}>
+          <span data-type="span" className={styles.text047}>
+            Understanding the User
+          </span>
+        </h1>
+        <span className={styles.text048}>
+          I synthesized all the documentations and reports created by the previous design team and
+          prepared a set of questionnaire to validate with different user groups
+        </span>
+        <span className={styles.text049}>
+          I interviewedÂ 
+          <span data-type="span" className={styles.text050}>
+            12 usersÂ 
+          </span>
+          and conductedÂ 
+          <span data-type="span" className={styles.text051}>
+            3 focus group sessionsÂ 
+          </span>
+          to validate my questionnaire and the findings of the teamÂ 
+          <br data-type="br" />
+        </span>
+        <span className={styles.text052}>
+          I found most of their findings to be accurate and only minor changes were required to be
+          altered. I ran a playback session for the stakeholders and the entire project team wherein
+          I walked them through the user research findings. We mapped out the MVP features, created
+          sprint plans and decided to release the app in phases.
+          <br data-type="br" />
+        </span>
+      </div>
+      <div id="cs2-user-journeys" className={styles.div05}>
+        <h1 className={` ${projectStyles.thqHeading1} ${styles.text053} `}>
+          <span data-type="span" className={styles.text054}>
+            User Journeys
+          </span>
+        </h1>
+        <span className={styles.text055}>
+          The personas that were created already were pretty solid and based on my user research I
+          made some minor tweaks. We identifiedÂ 
+          <span data-type="span" className={styles.text056}>
+            8 personasÂ 
+          </span>
+          that covered majority of the user groups in the organisation.
+        </span>
+        <span className={styles.text057}>
+          I collaborated with the Business analysts to construct the user journeys. We dissected the
+          features and functionalities, collated key requirement ask against the features and
+          plotted a journey for all the defined personas.
+        </span>
+        <span className={styles.text058}>
+          The belowÂ 
+          <span data-type="span" className={styles.text059}>
+            3 critical user journeysÂ 
+          </span>
+          covered almost 80% of our application needs:Â 
+          <br data-type="br" />
+          - Appraisee Journey
+          <br data-type="br" />
+          - Evaluator Journey
+          <br data-type="br" />- Reviewer Journey
+        </span>
       </div>
       <div id="cs2-howitstarted" className={styles.container20}>
         <h1 className={` ${projectStyles.thqHeading1} ${styles.text060} `}>
@@ -567,8 +567,10 @@ const Appraise = () => {
         <h1 className={` ${projectStyles.thqHeading1} ${styles.h106} `}>Launching the Website</h1>
         <span className={styles.text090}>
           The entire project was designed and developed in over a period ofÂ 
-          <span data-type="span">16 months.</span>
-          We worked in Agile with 4 week sprints.
+          <span data-type="span">
+            <span className={styles.text092}>16 months.</span>
+          </span>
+          Â We worked in Agile with 4 week sprints.
           <br data-type="br" />
           Once the wireframes for all the flows were finalised, I started on the visual design of
           the application. We already had a brand guideline in place, so I followed the design
@@ -579,20 +581,20 @@ const Appraise = () => {
           Once we developed the MVP, we ran a closed beta test with 100 users. We made minor
           iterations based on the user inputs and submitted the app for security testing.
         </span>
-        <span className={styles.text092}>
+        <span className={styles.text093}>
           As this is company wide initiative, I worked with HR managers, corporate communications to
           run awareness workshops and marketing campaigns with the associates in making them aware
           of the new system and process.
         </span>
-        <span className={styles.text093}>
-          <span className={styles.text094}>
+        <span className={styles.text094}>
+          <span className={styles.text095}>
             We successfully launched the web application on October 31, 2018.
           </span>
         </span>
-        <span className={styles.text095}>
+        <span className={styles.text096}>
           The response was mostly positive and people loved the app performance and the new
           interface.Â We had ~
-          <span data-type="span" className={styles.text096}>
+          <span data-type="span" className={styles.text097}>
             100k logins
           </span>
           Â in the first week but as expected the traffic gradually reduced in the weeks after
@@ -603,43 +605,43 @@ const Appraise = () => {
         <h1 className={` ${projectStyles.thqHeading1} ${styles.h107} `}>
           Launching the Mobile App
         </h1>
-        <span className={styles.text097}>
+        <span className={styles.text098}>
           Post the web launch, we took a month break to stabilise the site and work on any changes
           based on feedback.
         </span>
-        <span className={styles.text098}>
+        <span className={styles.text099}>
           I started working on few user flows for the mobile app during the web design phase itself.
           I created high fidelity mockups based on brand guidelines for all the user journeys in the
           app.
         </span>
-        <span className={styles.text099}>
+        <span className={styles.text100}>
           <span data-type="span">
-            <span data-type="span" className={styles.text101}>
+            <span data-type="span" className={styles.text102}>
               Like web, we worked on sprints and after successfully clearing the usability and
               security testing,Â 
-              <span data-type="span" className={styles.text102}>
+              <span data-type="span" className={styles.text103}>
                 we launched the mobile app on April 30, 2019.
               </span>
             </span>
           </span>
         </span>
-        <span className={styles.text103}>
+        <span className={styles.text104}>
           The response was mostly positive and people loved the app performance and the new
           interface.Â We had ~
-          <span data-type="span" className={styles.text104}>
+          <span data-type="span" className={styles.text105}>
             100k logins
           </span>
           Â in the first week but as expected the traffic gradually reduced in the weeks after
           launch.
         </span>
-        <span className={styles.text105}>
+        <span className={styles.text106}>
           The organisation was planning to revamp few more modules associated with appraisals such
           as promotion, career hub etc. But after working on this project for more than 16 months, I
           desired a break and exited the project.
           <br />I created a transition plan on KT and handed over all the access and relevant files
           to my replacement.
         </span>
-        <span className={styles.text106}>
+        <span className={styles.text107}>
           Presently, the application team is doing a tremendous job is maintaining the app. They are
           continuously working towards creating a platform to measure quantitative objectives
           automatically there by eliminating bias and also on improving the app with bug fixes, new
@@ -648,11 +650,11 @@ const Appraise = () => {
       </div>
       <div id="cs2-learnings" className={styles.container28}>
         <h1 className={` ${projectStyles.thqHeading1} ${styles.h108} `}>Final Thoughts</h1>
-        <span className={styles.text107}>
+        <span className={styles.text108}>
           This journey of 16 months was a fantastic learning experience filled with excitement, fun
           and at times frustration.. Some of my key takeaways from this project are:
         </span>
-        <span className={styles.text108}>
+        <span className={styles.text109}>
           - Establish a clear form of communication with the key stakeholders as lot of conflicts
           arise from simple miscommunications.
           <br />
@@ -661,7 +663,7 @@ const Appraise = () => {
           <br />- Take breaks from work as much as possible. Working continuously has serious
           consequences both physically and mentally.
         </span>
-        <span className={styles.text109}>
+        <span className={styles.text110}>
           I am immensely proud to be part this project that despite all the hurdles, banded together
           in creating this amazing product, that has a positive impact on large number of users.
           <br />
@@ -676,9 +678,9 @@ const Appraise = () => {
       <div id="footer" className={styles.container31}>
         <div className={styles.container32}>
           <div className={styles.container33}>
-            <span className={styles.text111}>
+            <span className={styles.text112}>
               Let&apos;s connect. Feel free to drop a
-              <span className={styles.text112}>&quot;hello&quot;</span>
+              <span className={styles.text113}>&quot;hello&quot;</span>
               anytime
             </span>
           </div>

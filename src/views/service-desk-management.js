@@ -330,11 +330,11 @@ const ServiceDeskManagement = () => {
           rel="noreferrer noopener"
           className={` ${projectStyles.thqLink} ${styles.text45} `}
         >
-          Clear left Design Agency has anÂ Â 
+          Clear left Design Agency has anÂ 
           <span data-type="span" className={styles.text46}>
             amazing detailed post
           </span>
-          Â  on how to run a 20-second gut test. Do check it out!â
+          Â on how to run a 20-second gut test. Do check it out!â
           <br data-type="br" />
         </a>
       </div>
@@ -356,7 +356,7 @@ const ServiceDeskManagement = () => {
               <br data-type="br" />
             </span>
             <span className={styles.text51}>
-              For the landing page, I opted for
+              For the landing page, I opted forÂ 
               <span data-type="span" className={styles.text52}>
                 3 Column (Kanban Board Inspired) layoutÂ Â 
               </span>

@@ -302,15 +302,15 @@ const LearningHub = () => {
         <span className={styles.text49}>
           The primary focus of the application is keeping oneself updated with the latest happenings
           on the institution and enabling students to learn anywhere and anytime.
-          <br />
+          <br data-type="br" />
           IÂ organized all the information and came up with 3 different user flows for the personas:
-          <span className={styles.text50}>
-            <br />
-            Discoverability, Relevancy and Trus
+          <span data-type="span" className={styles.text50}>
+            <br data-type="br" />
+            Discoverability, Relevancy and Trust
           </span>
-          t were the key themes I developed.
-          <br />I designed low fidelity prototypes using Sketch to narrow down the layout and the
-          content flow.
+          Â were the key themes I developed.
+          <br data-type="br" />I designed low fidelity prototypes using Sketch to narrow down the
+          layout and the content flow.
         </span>
       </div>
       <div id="cs1-wf-pic" className={styles.container23}>

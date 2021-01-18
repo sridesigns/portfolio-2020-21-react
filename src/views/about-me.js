@@ -51,18 +51,26 @@ const AboutMe = () => {
             <br />
           </span>
         </h1>
+      </div>
+      <div id="intro-pic" className={styles.div2}>
         <img
-          src="https://play.teleporthq.io/static/img/default.png"
+          src="/playground_assets/Temppic_portfolio_0.5x-1200h.png"
           className={` ${projectStyles.thqImage} ${styles.image1} `}
         />
+      </div>
+      <div id="intro-desc" className={styles.container03}>
         <span className={styles.text07}>Iâm a UX Designer based out of Chennai, India.</span>
         <span className={styles.text08}>
-          I currently work at
-          <span className={styles.text09}>Tata Consultancy Services (TCS)</span>
-          for the past
-          <span className={styles.text10}>9+years</span>
+          I currently work atÂ 
+          <span data-type="span" className={styles.text09}>
+            Tata Consultancy Services (TCS)
+          </span>
+          Â for the pastÂ 
+          <span data-type="span" className={styles.text10}>
+            9+years
+          </span>
           .
-          <br />
+          <br data-type="br" />
         </span>
         <span className={styles.text11}>
           I completed my Electronics and Instrumentation Engineering from RMK Engineering College in
@@ -81,8 +89,8 @@ const AboutMe = () => {
           experience across enterprise applications.
         </span>
       </div>
-      <div className={styles.container03}></div>
-      <div id="what-i-bring" className={styles.container04}>
+      <div className={styles.container04}></div>
+      <div id="what-i-bring" className={styles.container05}>
         <h1 className={` ${projectStyles.thqHeading1} ${styles.h1} `}>
           <span data-type="span">What I Bring</span>
         </h1>
@@ -117,8 +125,8 @@ const AboutMe = () => {
           iterating based on feedback from users, business and my team.
         </span>
       </div>
-      <div className={styles.container05}></div>
-      <div id="current-work" className={styles.container06}>
+      <div className={styles.container06}></div>
+      <div id="current-work" className={styles.container07}>
         <h1 className={` ${projectStyles.thqHeading1} ${styles.text24} `}>
           <span className={styles.text25}>Current Work</span>
         </h1>
@@ -142,8 +150,8 @@ const AboutMe = () => {
         </span>
         <span className={styles.text31}>
           {' '}
-          â¢ Designed digital workplace products including Intranet, Knowledge Management, Employee
-          Onboarding &amp; LOB Applications.
+          â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
+          response &amp; presentations and building internal digital products.
           <br data-type="br" />
         </span>
         <span className={styles.text32}>LATEST PROJECT</span>
@@ -165,17 +173,18 @@ const AboutMe = () => {
           Â and lot of ideas ended up as cost-saving initiatives for the company.
         </span>
       </div>
-      <div className={styles.container07}></div>
-      <div id="footer" className={styles.container08}>
-        <div className={styles.container09}>
+      <div className={styles.container08}></div>
+      <div id="footer" className={styles.container09}>
+        <div className={styles.container10}>
           <h1 className={` ${projectStyles.thqHeading1} ${styles.text38} `}>
-            <span data-type="span" className={styles.text39}>
-              Let&apos;s connect. Feel free to drop a<span className={styles.text40}>hello</span>
-              anytime.Â 
+            <span className={styles.text39}>
+              <span className={styles.text40}>Let&apos;s connect. Feel free to drop a</span>Â 
             </span>
+            helloÂ 
+            <span className={styles.text41}>anytime.</span>Â 
           </h1>
         </div>
-        <div className={styles.container10}>
+        <div className={styles.container11}>
           <a href="mailto:msgsrive@gmail.com?subject=Hello :)" className={styles.link}>
             <svg
               viewBox="0 0 1024 1024"
