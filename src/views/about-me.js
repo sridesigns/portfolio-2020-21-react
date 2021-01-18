@@ -130,44 +130,43 @@ const AboutMe = () => {
         <h1 className={` ${projectStyles.thqHeading1} ${styles.text24} `}>
           <span className={styles.text25}>Current Work</span>
         </h1>
-        <span className={styles.text26}>
+        <span className={styles.span1}>
           â¢ FacilitateÂ 
-          <span className={styles.text27}>remote &amp;</span>Â 
-          <span className={styles.text28}>in-person design sprintsÂ </span>
+          <span className={styles.text26}>remote &amp;</span>Â 
+          <span className={styles.text27}>in-person design sprintsÂ </span>
           with global clients to reimagine their employee workspace.
           <br />
         </span>
-        <span className={styles.text29}>
+        <span className={styles.text28}>
           â¢ I usually conduct 3-week design sprints that includes stakeholder discussions, user
           research, data synthesis, ideation, prototyping and user testing.
           <br data-type="br" />
         </span>
+        <span className={styles.text29}>
+          {' '}
+          â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
+          response &amp; presentations and building internal digital products.
+          <br data-type="br" />
+        </span>
         <span className={styles.text30}>
-          {' '}
-          â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
-          response &amp; presentations and building internal digital products.
+          â¢ Designed digital workplace products including Intranet, Knowledge Management, Employee
+          Onboarding &amp; LOB Applications
           <br data-type="br" />
         </span>
-        <span className={styles.text31}>
-          {' '}
-          â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
-          response &amp; presentations and building internal digital products.
-          <br data-type="br" />
-        </span>
-        <span className={styles.text32}>LATEST PROJECT</span>
-        <span className={styles.text33}>
+        <span className={styles.text31}>LATEST PROJECT</span>
+        <span className={styles.text32}>
           {' '}
           â¢ Lead UX design for an ANZ Rail Company to redesign and improve theirÂ 
-          <span className={styles.text34}>Ideation Platform.</span>
+          <span className={styles.text33}>Ideation Platform.</span>
           <br data-type="br" />
         </span>
-        <span className={styles.text35}>
+        <span className={styles.text34}>
           â¢ The entire project was conceptualised, designed and successfully delivered via Remote.
         </span>
-        <span className={styles.text36}>
+        <span className={styles.text35}>
           â¢ I collaborated with a cross-functional team in designing andÂ  developing a user centered
           MVP. Adoption of the platform improved byÂ 
-          <span data-type="span" className={styles.text37}>
+          <span data-type="span" className={styles.text36}>
             200%
           </span>
           Â and lot of ideas ended up as cost-saving initiatives for the company.
@@ -176,12 +175,12 @@ const AboutMe = () => {
       <div className={styles.container08}></div>
       <div id="footer" className={styles.container09}>
         <div className={styles.container10}>
-          <h1 className={` ${projectStyles.thqHeading1} ${styles.text38} `}>
-            <span className={styles.text39}>
-              <span className={styles.text40}>Let&apos;s connect. Feel free to drop a</span>Â 
+          <h1 className={` ${projectStyles.thqHeading1} ${styles.text37} `}>
+            <span className={styles.text38}>
+              <span className={styles.text39}>Let&apos;s connect. Feel free to drop a</span>Â 
             </span>
             helloÂ 
-            <span className={styles.text41}>anytime.</span>Â 
+            <span className={styles.text40}>anytime.</span>Â 
           </h1>
         </div>
         <div className={styles.container11}>

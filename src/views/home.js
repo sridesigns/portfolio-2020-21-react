@@ -239,8 +239,10 @@ const Home = () => {
         <div className={styles.div2}>
           <div className={styles.container21}>
             <span className={styles.text28}>
-              Let&apos;s connect. Feel free to drop a
-              <span className={styles.text29}>&quot;hello&quot;</span>
+              Let&apos;s connect. Feel free to drop aÂ 
+              <span data-type="span" className={styles.text29}>
+                &quot;hello&quot;
+              </span>
               anytime
             </span>
           </div>
